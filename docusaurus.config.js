@@ -39,6 +39,8 @@ const config = {
       ({
         docs: false,
         blog: {
+          postsPerPage: 3,
+          blogSidebarCount: 0,
           showReadingTime: true,
         },
         theme: {

@@ -9,7 +9,22 @@ import styles from "./index.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
-  return <div></div>;
+  return (
+    <div className={styles.container}>
+      <div className={styles.content}>
+        <div className={styles.image}></div>
+        <div className={styles.contentText}>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            dolore vel, eius sint nihil esse maiores fugiat dolorum perferendis.
+            Asperiores eius ipsam perspiciatis impedit tempore eum officiis
+            itaque natus modi?
+          </p>
+        </div>
+        <div className={styles.contact}></div>
+      </div>
+    </div>
+  );
 }
 
 export default function Home(): JSX.Element {

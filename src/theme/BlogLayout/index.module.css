@@ -1,0 +1,21 @@
+.wrapper {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blogContainer {
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+  .blogContainer {
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(100% - 50px);
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
