@@ -25,6 +25,10 @@
   background-color: rgb(64, 109, 94);
 }
 
+.image > img {
+  border-radius: 100%;
+}
+
 .contentText {
   margin-top: 26px;
 }
@@ -34,7 +38,25 @@
 }
 
 .contact {
-  background-color: chocolate;
   width: 100%;
-  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  cursor: pointer;
+  height: 20px;
+  color: #496770;
+}
+
+.icon:hover {
+  height: 20px;
+  color: #597d88;
 }
