@@ -18,7 +18,7 @@ function HomepageHeader() {
           <img src={require("@site/static/img/profile.jpg").default} />
         </div>
         <div className={styles.contentText}>
-          <h1>Hello.</h1>
+          <h1 className={styles.greeting}>Hello.</h1>
           <p>
             Welcome to this little corner of mine. I craft various interesting
             gizmo on the web ranging from interactive games to wacky user
@@ -46,10 +46,7 @@ function HomepageHeader() {
 
 export default function Home(): JSX.Element {
   return (
-    <Layout
-      title={`Home`}
-      description="Description will go into a meta tag in <head />"
-    >
+    <Layout title={`Home`} description="Junho Choi Hediyatmo's Homepage">
       <HomepageHeader />
     </Layout>
   );

@@ -1,0 +1,76 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+.container {
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.innerContainer {
+  margin-left: 600px;
+  margin-right: 600px;
+  width: 100%;
+}
+
+.expItem {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #c8dce2;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.expItem:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.itemHeader {
+  display: flex;
+  align-items: center;
+}
+
+.imageContainer {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.companyImage {
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.headerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headerText > h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.headerText > h4 {
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.headerText > h5 {
+  margin-bottom: 2px;
+}
+
+.headerText > h6 {
+  font-size: 13px;
+  color: #c8dce2;
+}
+
+.itemContent {
+  font-size: 14px;
+}

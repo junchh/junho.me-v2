@@ -60,3 +60,11 @@
   height: 20px;
   color: #597d88;
 }
+
+.greeting {
+  color: #6b929e;
+}
+
+[data-theme="dark"] .greeting {
+  color: #81abb8;
+}
