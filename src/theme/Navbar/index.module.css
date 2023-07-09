@@ -14,6 +14,12 @@
   backdrop-filter: blur(10px);
 }
 
+@media screen and (max-width: 768px) {
+  .navbarContainer {
+    flex-direction: column;
+  }
+}
+
 [data-theme="dark"] .navbarContainer {
   background-color: #111414b0;
 }
